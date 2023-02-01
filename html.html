@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <ol id="elem">
+    <li>Привет</li>
+    <li>Мир</li>
+  </ol>
+  
+  <script>
+    function clear(elem) { 
+      let elements=elem.querySelectorAll('li');
+      for(el of elements)
+      el.remove();
+
+
+     }
+  
+    clear(elem); // очищает список
+  </script>
+</body>
+</html>
